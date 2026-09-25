@@ -63,7 +63,6 @@ jobs:
           args: >-
             --no-progress
             --offline
-            --exclude-mail
             --exclude-loopback
             '**/*.md'
           fail: true
