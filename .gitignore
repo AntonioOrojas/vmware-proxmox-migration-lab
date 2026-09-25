@@ -1,0 +1,5 @@
+lab.env
+results/*.csv
+*.ovf
+*.vmdk
+*.iso
