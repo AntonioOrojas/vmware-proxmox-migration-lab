@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Intermovil TEC — Laboratoire de migration VMware vers Proxmox</title>
+  <desc id="bannerDesc">Bannière géométrique originale illustrant une migration de serveurs, avec le texte VMware vers Proxmox et Intermovil TEC.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#1e293b"/>
+    </pattern>
+  </defs>
+
+  <!-- Fond -->
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="300" fill="url(#dotGrid)" opacity="0.5"/>
+
+  <!-- Liseré supérieur -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#arrowGrad)"/>
+
+  <!-- Rack serveur gauche (source) -->
+  <g transform="translate(70,78)">
+    <rect x="0" y="0" width="120" height="150" rx="8" fill="#1c2740" stroke="#334764" stroke-width="2"/>
+    <g fill="#334764">
+      <rect x="14" y="16" width="92" height="22" rx="3"/>
+      <rect x="14" y="46" width="92" height="22" rx="3"/>
+      <rect x="14" y="76" width="92" height="22" rx="3"/>
+      <rect x="14" y="106" width="92" height="22" rx="3"/>
+    </g>
+    <g fill="#5a7aa8">
+      <circle cx="24" cy="27" r="3"/>
+      <circle cx="24" cy="57" r="3"/>
+      <circle cx="24" cy="87" r="3"/>
+      <circle cx="24" cy="117" r="3"/>
+    </g>
+    <text x="60" y="172" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="14" fill="#93a4c3">Cluster source</text>
+  </g>
+
+  <!-- Flèche de migration -->
+  <g transform="translate(230,140)">
+    <rect x="0" y="-6" width="150" height="12" rx="6" fill="url(#arrowGrad)"/>
+    <path d="M150 -24 L198 0 L150 24 Z" fill="url(#arrowGrad)"/>
+  </g>
+
+  <!-- Rack serveur droit (destination) -->
+  <g transform="translate(455,68)">
+    <rect x="0" y="0" width="130" height="170" rx="8" fill="#132a24" stroke="#1f6f5c" stroke-width="2"/>
+    <g fill="#1f6f5c">
+      <rect x="15" y="18" width="100" height="24" rx="3"/>
+      <rect x="15" y="50" width="100" height="24" rx="3"/>
+      <rect x="15" y="82" width="100" height="24" rx="3"/>
+      <rect x="15" y="114" width="100" height="24" rx="3"/>
+    </g>
+    <g fill="#2dd4bf">
+      <circle cx="26" cy="30" r="3.4"/>
+      <circle cx="26" cy="62" r="3.4"/>
+      <circle cx="26" cy="94" r="3.4"/>
+      <circle cx="26" cy="126" r="3.4"/>
+    </g>
+    <text x="65" y="192" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="14" fill="#7fe0cf">Cluster Proxmox</text>
+  </g>
+
+  <!-- Texte principal -->
+  <g font-family="Verdana, Geneva, sans-serif">
+    <text x="660" y="130" font-size="46" font-weight="bold" fill="#f1f5f9">VMware</text>
+    <text x="836" y="130" font-size="46" font-weight="bold" fill="url(#arrowGrad)">&#8594;</text>
+    <text x="884" y="130" font-size="46" font-weight="bold" fill="#f1f5f9">Proxmox</text>
+
+    <text x="660" y="168" font-size="18" fill="#93a4c3">Laboratoire de migration &#183; ESXi imbriqu&#233; sur Proxmox VE</text>
+
+    <text x="660" y="222" font-size="26" font-weight="bold" fill="#2dd4bf" letter-spacing="1">INTERMOVIL TEC</text>
+    <text x="660" y="248" font-size="15" fill="#5a7aa8">Souverainet&#233; num&#233;rique &#183; Migration &#183; Formation &#183; Support</text>
+  </g>
+
+  <!-- Liseré inférieur -->
+  <rect x="0" y="294" width="1200" height="6" fill="url(#arrowGrad)"/>
+</svg>
