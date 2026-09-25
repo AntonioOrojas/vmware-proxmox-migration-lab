@@ -1,0 +1,5 @@
+vm_name,datastore,os,disk_gb,ram_gb,vcpu,criticite,methode_migration,vsan,chiffre,snapshot,vtpm,notes
+vm-web01,datastore-lab-01,Debian 12,40,4,2,moyenne,assistant,non,non,non,non,Exemple fictif - serveur web de test
+vm-sql01,datastore-lab-01,Windows Server 2022,120,8,4,haute,disk-import,non,non,oui,oui,Exemple fictif - BitLocker a suspendre avant migration (vTPM)
+vm-app-legacy,datastore-lab-02,Windows Server 2019,80,4,2,faible,ovf,non,non,non,non,Exemple fictif - VM de demonstration sans criticite
+vm-adds01,datastore-lab-02,Windows Server 2022,60,4,2,haute,assistant,non,non,oui,non,Exemple fictif - consolider les snapshots avant import
